@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap);
+
+
+*{
+    font-family: inter, system-ui, roboto, helvetica, arial;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wraper{
+    display: flex;
+    flex-direction: row;
+}
+
+.background{
+    height: 500px;
+    width: 200px;
+    background-image: url(https://images.pexels.com/photos/1420702/pexels-photo-1420702.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-position: top;
+    background-size: cover;
+}
+
+.titulo h3{
+    width: 320px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+}
+
+.mail input{
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid rgb(212, 211, 211);
+}
+
+.password{
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+}
+
+.password input{
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid rgb(212, 211, 211);
+}
+
+.log{
+    margin: 1em 1em;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 20em;
+    height: 2em;
+    background-color: #7e3af2;
+}
+
+.log a {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.space{
+    margin: 2em 1em;
+    border-top: 1px solid rgb(212, 211, 211);
+    width: 20em;
+}
+
+.github{
+    display: flex;
+    justify-content: center;
+    margin: 1em 1em;
+    width: 20em;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 5px;
+}
+
+.github a{ 
+    padding-top: 5px;
+    color: back;
+    text-decoration: none;
+}
+
+.github i{
+    padding-top: 5px;
+}
+
+.twitter{
+    display: flex;
+    justify-content: center;
+    margin: 1em 1em;
+    width: 20em;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 5px;
+}
+
+.twitter a{ 
+    padding-top: 5px;
+    color: back;
+    text-decoration: none;
+}
+
+.twitter i{
+    padding-top: 5px;
+}
+
+.forgot{
+    margin: 0.5em;
+    color: #7e3af2;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.forgot p{
+    width: 320px;
+}
+
+
+.create{
+    padding-top: 0;
+    color: #7e3af2;
+}
+
+.create p{
+    width: 320px;
+    
+}
+
+@media only screen and (min-width: 480px){
+  .wraper {
+     display: flex;
+     flex-direction: column;
+  }
+
+  .background{
+      height: 150px;
+      width: 100%;
+      background-position: top;
+      background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+    .wraper{
+       display: flex;
+       flex-direction: row;
+    }
+
+    .background{
+        height: 800px;
+        width: 50%;
+        background-position: left;
+        background-size: cover;
+    }
+
+    .login{
+        margin: auto;
+        margin-top: 5%;
+        width: 50%;
+    }
+  }
+
+  @media only screen and (min-width: 900px){
+    .wraper{
+       display: flex;
+       flex-direction: row;
+    }
+  
+    .background{
+        height: 900px;
+        width: 50%;
+        background-position: left;
+        background-size: cover;
+    }
+
+    .login{
+        margin: auto;
+        margin-top: 10%;
+        width: 50%;
+    }
+  }

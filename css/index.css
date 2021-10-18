@@ -1,0 +1,497 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.title{
+    width: 20%;
+    margin-left: 2%;
+}
+
+.search{
+    margin-left: 8%; 
+    width: 50%;
+    margin-top: 1%;
+ }
+
+ .search i{
+     display: none;
+ }
+
+ .search input{
+    width: 70%;
+    border: 1px solid rgb(236, 235, 235);
+    border-radius: 5px;
+    height: 30px;
+}
+
+.bell{
+   width: 10%;
+   margin-top: 1.5%;
+   display: flex;
+   flex-direction: row;
+   color: #6c2bd9 ;
+}
+
+.circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: red;
+    border: 2px solid white;
+    margin-left: -8px;
+    margin-top: -6px;
+}
+
+
+.profilePhoto{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+.profilePhoto img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.mainbody{
+    display: flex;
+    flex-direction: row;
+}
+
+.aside{
+    color: rgb(87, 84, 84);
+    width: 250px;
+    padding-left: 25px;
+}
+
+.dashboard:hover{
+    border-left: inset;
+    border-color: #6c2bd9;
+    transition: 0.2s; 
+}
+
+.clients:hover{
+    border-left: inset;
+    border-color: #6c2bd9;
+    transition: 0.2s; 
+}
+
+.products:hover{
+    border-left: inset;
+    border-color: #6c2bd9;
+    transition: 0.2s; 
+}
+
+.sales:hover{
+    border-left: inset;
+    border-color: #6c2bd9;
+    transition: 0.2s; 
+}
+
+.shipping:hover{
+    border-left: inset;
+    border-color: #6c2bd9;
+    transition: 0.2s; 
+}
+
+.statistics:hover{
+    border-left: inset;
+    border-color: #6c2bd9;
+    transition: 0.2s; 
+}
+
+.add{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #6c2bd9;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.addproduct a{
+    padding-top: 300px;
+}
+
+.plus{
+    margin-top: 5px;
+    margin-right: 10px;
+    color: white;
+}
+
+.add a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.maincontent{
+    width: 80%;
+    margin-left: 150px;
+    margin-right: 80px;
+    position: relative;  
+}
+
+.dash{
+    background-color: rgb(247, 245, 245);
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+}
+
+.missed{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #6c2bd9;
+    color: white;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.see{
+    height: 40px;
+}
+
+.see h4{
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+
+.more h4{
+    padding-right: 15px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
+.bigBar{
+    background-color: rgb(247, 245, 245);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+[class^=box-]{
+    border: 1px solid rgb(236, 235, 235);
+    background-color: white;
+    border-radius: 10px;
+    height: 120px;
+    width: 200px;
+    margin-top: 30px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+}
+
+[class^="Icon-"]{
+    margin-top: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.Icon-1{
+    background-color: #feecdc;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.Icon-1 i{
+    color:#ff5a1f;
+    margin-left: 5px;
+    margin-top: 5px;  
+}
+
+.Icon-2{
+    background-color: #def7ec;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.Icon-2 i{
+    color: #0e9f6e;
+    margin-left: 5px;
+    margin-top: 5px;  
+}
+
+.Icon-3{
+    background-color: #e1effe    ;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.Icon-3 i{
+    color: #3f83f8;
+    margin-left: 5px;
+    margin-top: 5px;  
+}
+
+.Icon-4{
+    background-color: #d5f5f6;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.Icon-4 i{
+    color: #0694a2;
+    margin-left: 5px;
+    margin-top: 5px;  
+}
+
+
+.Name h4{
+    margin-top: 10px;
+}
+
+.Name h3{
+    margin-bottom: 10%;
+}
+
+
+article{
+    padding-top: 10px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 70%;
+    background-color: rgb(247, 245, 245);
+    box-shadow: inset 0 0 2px #bbbaba;
+}
+
+
+.table{
+    background-color:white;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+.table thead tr:first-child{
+    background-color: #f4f5f7;
+    height: 40px;
+}
+
+ .approved{
+    background-color: #c1fce1    ;
+    border-radius: 9px;
+    height: 20px;
+    width: 70px;
+}
+
+.denied{
+    background-color: #ffb1b1;
+    width: 60px;
+    border-radius: 9px;
+    height: 20px;
+}
+
+.expired{
+    background-color: #d1d2d4;
+    width: 60px;
+    border-radius: 9px;
+    height: 20px;
+}
+
+tfoot h5{
+    margin-left: 10px;
+    color: grey;
+}
+
+.end a{
+    text-decoration: none;
+    color: grey;
+}
+
+.end a:hover {
+    background-color: #6c2bd9;
+    color: white;
+    border-radius: 7px;
+    width: 10px;
+    transition: 0.5s;
+}
+
+.element-1 img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-right: 20PX;
+}
+
+.element-1{
+    display: flex;
+    float: row;
+    height: 30px;
+}
+
+.nick h4{
+    margin-bottom: 0px;
+}
+
+.description{
+    margin-top: 5px;
+    margin-left: 55px;
+}
+
+.profilepicture{
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+.nameprofile{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+th, td{
+    
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    
+}
+
+.footertable{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.passpage a{
+    width: 500px;
+}
+
+@media only screen and (max-width: 1200px){
+    .bigBar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+
+        grid-template-areas: "total balances"
+                             "sales contacts";
+    }
+
+    [class^="box-"]{
+        width: 100%;
+    }
+
+    .box-1{
+        grid-area: total;
+    }
+
+    .box-2{
+        grid-area: balances;
+    }
+
+    .box-3{
+        grid-area: sales;
+        margin-bottom: 30px;
+    }
+
+    .box-4{
+        grid-area: contacts;
+    }
+
+    .table{
+        margin-top: 130px;
+    }
+
+    .search i{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .bigBar {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+
+    }
+
+    .aside{
+        display: none;
+    }
+
+    .title{
+        display: none;
+    }
+
+    .table{
+        margin-top: 300px;
+    }
+
+    .box-4{
+        margin-top: 0px;
+    }
+
+    [class^="Icon"]{
+        margin-top: 20px;
+    }
+
+    [class^="box-"]{
+      
+        height: 35%;
+    }
+
+    [class^="box"] h5{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    [class^="box"] h3{
+        margin-top: 10px; 
+    }   
+
+    .table{
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    article{
+        padding-top: 10px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 70%;
+        background-color: rgb(247, 245, 245);
+        box-shadow: inset 0 0 2px #bbbaba;
+    }
+
+    .navbar{
+        width: 80%;
+    }
+
+    .search{
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
+
+    .search i{
+        
+        color: #6c2bd9;
+        margin-right: 5px;
+    }
+
+    .bell{
+        margin-left: 0px;
+    }
+}
